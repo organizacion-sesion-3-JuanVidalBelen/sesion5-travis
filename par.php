@@ -8,7 +8,7 @@ class par
 	{
     		return 0;
 	}
-	return 0;
+	return 34;
     }
  
 }

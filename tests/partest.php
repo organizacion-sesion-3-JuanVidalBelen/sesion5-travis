@@ -19,7 +19,7 @@ class parTests extends TestCase
     public function testesPar()
     {
         $result = $this->par->esPar(2);
-        $this->assertEquals(0, $result);
+        $this->assertEquals(2, $result);
 
     }
 
