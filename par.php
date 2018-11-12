@@ -6,11 +6,11 @@ class par
     {
         if ($numero%2==0)
 	{
-    		return true;
+    		return 0;
 	}
 	else
 	{
-	    	return false;
+	    	return 1;
 	}
     }
  
