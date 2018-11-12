@@ -1,8 +1,8 @@
 <?php
-class Calculator
+class par
 {
  
-    public function par($numero)
+    public function esPar($numero)
     {
         if ($numero%2==0)
 	{

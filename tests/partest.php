@@ -1,34 +1,25 @@
 <?php
 use PHPUnit\Framework\TestCase;
 require 'par.php';
+
 class parTests extends TestCase
 {
-    private $pares;
+    private $par;
  
     protected function setUp()
     {
-        $this -> pares = new Par();
+        $this->par = new par();
     }
  
     protected function tearDown()
     {
-        $this -> pares = NULL;
+        $this->par = NULL;
     }
  
-    public function testA()
+    public function testesPar()
     {
-        $result = $this-> pares->par(1);
-        $this->assertEquals(1, $result);
-    }
-    public function testB()
-    {
-        $result = $this->pares->par(2);
+        $result = $this->par->esPar(2);
         $this->assertEquals(0, $result);
     }
-    public function testD()
-    {
-        $result = $this->pares->par(10);
-        $this->assertEquals(0, $result);
-    }
- 
+
 }
