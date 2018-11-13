@@ -20,6 +20,12 @@ class parTests extends TestCase
     {
         $result = $this->par->esPar(2);
         $this->assertEquals(0, $result);
+	 $result = $this->par->esPar(5);
+        $this->assertEquals(1, $result);
+	 $result = $this->par->esPar(12);
+        $this->assertEquals(0, $result);
+ 	$result = $this->par->esPar(155);
+        $this->assertEquals(1, $result);
 
     }
 
